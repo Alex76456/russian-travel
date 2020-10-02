@@ -1,0 +1,10 @@
+.photos__list {
+  margin: 92px auto 92px;
+  max-width: calc(100% - 96px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  list-style: none;
+  padding: 0
+}
