@@ -4,3 +4,17 @@
   display: flex;
   gap: 18px;
 }
+
+@media (max-width: 768px) {
+  .footer__links {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

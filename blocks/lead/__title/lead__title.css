@@ -6,3 +6,18 @@
   line-height: 100px;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__title {
+    margin: 0 0 16px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

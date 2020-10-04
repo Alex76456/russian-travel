@@ -1,0 +1,21 @@
+.cover_margin_around {
+  margin: 92px auto 92px;
+}
+
+@media (max-width: 768px) {
+  .cover_margin_around {
+    margin: 88px auto 88px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover_margin_around {
+    margin: 72px auto 72px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover_margin_around {
+    margin: 64px auto 64px;
+  }
+}

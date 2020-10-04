@@ -5,3 +5,24 @@
   line-height: 76px;
   grid-area: left-top;
 }
+
+@media (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 700px) {
+  .place__title {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__title {
+    padding: 0 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

@@ -1,3 +1,15 @@
 .place__paragraphs {
   grid-area: right-bottom;
 }
+
+@media (max-width: 700px) {
+  .place__paragraphs {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__paragraphs {
+    padding: 0 16px;
+  }
+}
