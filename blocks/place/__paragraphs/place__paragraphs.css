@@ -1,15 +1,16 @@
 .place__paragraphs {
   grid-area: right-bottom;
+  margin: 0 auto;
 }
 
 @media (max-width: 700px) {
   .place__paragraphs {
-    padding: 0 24px;
+    width: calc(100% - 48px);
   }
 }
 
 @media (max-width: 425px) {
   .place__paragraphs {
-    padding: 0 16px;
+    width: calc(100% - 32px);
   }
 }
