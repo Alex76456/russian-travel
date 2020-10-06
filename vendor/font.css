@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  src: url('../vendor/font-inter/Inter-Bold.woff') format('woff'), url('../vendor/font-inter/Inter-Black.woff2') format('woff2'), url('../vendor/font-inter/Inter-Black.ttf') format('truetype');
+  src: url('../vendor/font-inter/Inter-Black.woff') format('woff'), url('../vendor/font-inter/Inter-Black.woff2') format('woff2'), url('../vendor/font-inter/Inter-Black.ttf') format('truetype');
   font-family: Inter;
   font-weight: 900;
 }
