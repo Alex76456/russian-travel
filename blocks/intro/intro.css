@@ -3,15 +3,10 @@
   flex-direction: column;
   max-width: 984px;
   margin: 0 auto;
+  width: calc(100% - 96px);
 }
 
 @media (max-width: 1024px) {
-  .intro {
-    width: calc(100% - 96px);
-  }
-}
-
-@media (max-width: 768px) {
   .intro {
     width: calc(100% - 48px);
   }

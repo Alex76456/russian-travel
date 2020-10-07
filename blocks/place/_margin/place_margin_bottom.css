@@ -2,6 +2,10 @@
   margin-bottom: 80px;
 }
 
+.place_margin_bottom:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .place_margin_bottom {
     margin-bottom: 72px;

@@ -3,6 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: calc(100% - 96px);
   max-width: 984px;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    width: 100%;
+  }
 }

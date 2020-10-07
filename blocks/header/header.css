@@ -10,7 +10,6 @@
 @media (max-width: 900px) {
   .header {
     width: calc(100% - 48px);
-    padding: 28px 0 48px;
   }
 }
 

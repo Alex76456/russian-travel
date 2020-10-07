@@ -6,11 +6,16 @@
   width: calc(100% - 96px);
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
     align-items: center;
-    width: calc(100% - 48px);
   }
 }
 

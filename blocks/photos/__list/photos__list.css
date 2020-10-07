@@ -9,17 +9,17 @@
     padding: 0;
   }
   
-  @media (max-width: 1024px) {
+  @media (max-width: 1080px) {
     .photos__list {
+      max-width: calc(100% - 48px);
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 1fr);
       gap: 14px;
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 840px) {
     .photos__list {
-      max-width: calc(100% - 48px);
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
       gap: 16px;
