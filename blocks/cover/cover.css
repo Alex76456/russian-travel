@@ -6,12 +6,5 @@
 @media (max-width: 1124px) {
   .cover {
     width: 100%;
-    /*width: calc(100% - 48px);/*/
-  }
-}
-
-@media (max-width: 1025px) {
-  .cover {
-    width: 100%;
   }
 }
